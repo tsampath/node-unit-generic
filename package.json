@@ -1,0 +1,38 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Node js common rest API",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/thusharam/common.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Common",
+    "Rest",
+    "API"
+  ],
+  "author": "Thushara Manchanayake (thusharas@gmail.com)",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/thusharam/common#readme",
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "body-parser": "^1.14.2",
+    "config": "^1.19.0",
+    "cors": "^2.7.1",
+    "crypto": "0.0.3",
+    "express": "^4.13.4",
+    "express-validator": "^2.19.1",
+    "express-winston": "^1.2.0",
+    "mongorepository": "~1.1.1",
+    "mysql": "^2.10.2",
+    "q": "^1.4.1",
+    "repository": "^0.2.0",
+    "underscore": "^1.8.3",
+    "winston": "^2.2.0"
+  }
+}
